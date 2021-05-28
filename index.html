@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+  <!-- Additional CSS must be placed after Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Newton Camp Realty</title>
+</head>
+
+<body style="margin: 0">
+
+  <header class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1>Newton Camp Realty</h1>
+        </div>
+        <div class="col-md-4 col-xl-2 mt-4">
+          <a href="#reserveForm" role="button" class="btn btn-lg btn-primary" data-toggle="tooltip"
+            data-placement="bottom" data-html="true"
+            title="Or call us at <br /><strong>1-267-555-7890</strong>">Schedule an Appointment</a>
+        </div>
+      </div>
+    </div>
+  </header>
+      
+  <div class="container-fluid">
+    <div class="row row-content">
+      <div class="col">
+        <img src="img/newton1.jpg" class="image-fluid col" alt="Newton Camp" />
+      </div>
+    </div>
+  </div>
+
+       
+  <div class="container-fluid">
+    <div class="row row-content">
+      <div class="col offset-3">
+        <a href="index.html" type="button" class="btn btn-light btn-circle btn-xl">Home</a>
+        <a href="aboutus.html" type="button" class="btn btn-light btn-circle btn-xl">About Me</a>  
+        <a href="listings.html" type="button" class="btn btn-light btn-circle btn-xl">Listings</a>
+        <a href="contactus.html" type="button" class="btn btn-light btn-circle btn-xl">Contact Us</a>
+      </div>
+    </div>
+  </div>
+      
+  <div class="row row-content">
+    <div class="col-sm-6 mx-auto">
+      <div class="card">
+        <h3 class="card-header bg-primary text-light">Schedule an Appointment</h3>
+        <div class="card-body">
+          <form id="reserveForm">
+            <div class="row form-group">
+              <label for="cusName" class="col-sm-6 col-form-label">Name</label>
+              <div class="col">
+                <input type="name" class="form-control" id="cusName" placeholder="First Last">
+              </div>
+            </div>
+            <div class="row form-group">
+              <label for="cusEmail" class="col-sm-6 col-form-label">Email</label>
+              <div class="col">
+                <input type="email" class="form-control" id="cusEmail" placeholder="email@umail.com">
+              </div>
+            </div>
+            <div class="row form-group">
+              <label for="cusPhone" class="col-sm-6 col-form-label">Phone Number</label>
+              <div class="col">
+                <input type="phone" class="form-control" id="cusPhone" placeholder="1-267-555-7890">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="date" class="col-sm-6 col-form-label"">Date</label>
+              <div class="col">
+                <input type="date" id="date" name="date" class="form-control" placeholder="date" />
+              </div>  
+            </div>  
+            <div class="row">
+              <div class="col">
+                <button type="submit" class="btn btn-primary">Search</button>
+              </div>
+            </div>
+          </form>
+        </div>  
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h5>Social Media</h5>
+          <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+          <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+          <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+          <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>    
+    </div>        
+  </footer>
+
+  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
